@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body class="font-main bg-gray-200">
+    <main class="w-full min-h-screen flex justify-center items-center">
+        <section class="bg-blue-400 w-full p-8 max-w-5xl shadow-2xl rounded-md text-white flex flex-col space-y-20 md:flex-row md:space-y-0 md:justify-between xl:px-20 xl:py-12 xl:p-0 overflow-hidden">
+
+            <div class="flex flex-col space-y-14 md:justify-between md:space-y-0">
+                <div>
+                    <h1 class="font-bold text-3xl mb-5">Contact us</h1>
+                    <p class="font-light text-sm max-w-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, non. Quo nihil labore sint pariatur?</p>
+                </div>
+
+                <div class="flex flex-col space-y-4">
+                    <div class="flex items-center">
+                        <ion-icon name="call" class="text-xl"></ion-icon>
+                        <span class="ml-2 font-medium">+088-012345678</span>
+                    </div>
+                    <div class="flex items-center">
+                        <ion-icon name="mail" class="text-xl"></ion-icon>
+                        <span class="ml-2 font-medium">info@nothing.com</span>
+                    </div>
+                    <div class="flex items-center">
+                        <ion-icon name="home" class="text-xl"></ion-icon>
+                        <span class="ml-2 font-medium">221B Baker Street</span>
+                    </div>
+                </div>
+
+                <div class="flex space-x-4">
+                    <a href="#">
+                        <ion-icon name="logo-facebook" class="text-2xl cursor-pointer hover:opacity-90"></ion-icon>
+                    </a>
+                    <a href="#">
+                        <ion-icon name="logo-twitter" class="text-2xl cursor-pointer hover:opacity-90"></ion-icon>
+                    </a>
+                    <a href="#">
+                        <ion-icon name="logo-pinterest" class="text-2xl cursor-pointer hover:opacity-90"></ion-icon>
+                    </a>
+                    <a href="#">
+                        <ion-icon name="logo-instagram" class="text-2xl cursor-pointer hover:opacity-90"></ion-icon>
+                    </a>
+                </div>
+            </div>
+            <div class="relative z-10">
+
+                <div class="absolute z-0 w-40 h-40 rounded-full bg-purple-500 -right-24 -top-20"></div>
+                <div class="absolute z-0 w-40 h-40 rounded-full bg-purple-500 -left-24 -bottom-20"></div>
+
+                <form class="max-w-sm bg-gray-200 rounded-lg shadow-xl p-6 text-black flex flex-col space-y-7 md:w-80 z-10 relative">          
+                    <div>
+                        <label class="text-sm text-gray-600 font-medium mb-2 block">Your Name</label>
+                        <input type="text" class="p-2 border focus:ring-2 border-solid w-full">
+                    </div>
+                    <div>
+                        <label class="text-sm text-gray-600 font-medium mb-2 block">Your Email</label>
+                        <input type="text" class="p-2 border focus:ring-2 border-solid w-full">
+                    </div>
+                    <div>
+                        <label class="text-sm text-gray-600 font-medium mb-2 block">Your Message</label>
+                        <textarea type="text" rows="4" class="p-2 border focus:ring-2 border-solid w-full"></textarea>
+                    </div>
+    
+                    <div class="ml-auto">
+                        <button class="bg-blue-400 font-bold text-gray-200 py-2 px-8 hover:opacity-90">
+                            Send
+                        </button>
+                    </div>
+                </form>
+            </div>
+                       
+        </section>
+    </main>
+
+    <!-- Ionicon -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+</html>
