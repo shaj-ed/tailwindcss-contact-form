@@ -9,5 +9,5 @@ ___
 ## Mobile Design
 ![Mobile Design](./design/mobile.png)
 ___
-### fell free to share anything you got in your mind about this design.
+### feel free to share anything you got in your mind about this design.
 # Thanks Again...
